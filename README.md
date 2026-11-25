@@ -1,23 +1,24 @@
-# g290-one-line-one-laugh
+# One Line, One Laugh
 
-[![make.fun · u-coral-404-one-line-one-laugh-22f2c9f3](https://make.fun/badge/u-coral-404-one-line-one-laugh-22f2c9f3.svg)](https://make.fun/bounty/u-coral-404-one-line-one-laugh-22f2c9f3?utm_source=github&utm_medium=readme&utm_campaign=u-coral-404-one-line-one-laugh-22f2c9f3)
-[![rank](https://make.fun/badge/u-coral-404-one-line-one-laugh-22f2c9f3/gp897318-beep/g290-one-line-one-laugh/rank.svg)](https://make.fun/bounty/u-coral-404-one-line-one-laugh-22f2c9f3/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-coral-404-one-line-one-laugh-22f2c9f3)
-[![reward](https://make.fun/badge/u-coral-404-one-line-one-laugh-22f2c9f3/gp897318-beep/g290-one-line-one-laugh/reward.svg)](https://make.fun/bounty/u-coral-404-one-line-one-laugh-22f2c9f3?utm_source=github&utm_medium=readme&utm_campaign=u-coral-404-one-line-one-laugh-22f2c9f3)
+[![One Line, One Laugh](https://make.fun/badge/u-coral-404-one-line-one-laugh-22f2c9f3.svg)](https://make.fun)
+[![Rank](https://make.fun/badge/u-coral-404-one-line-one-laugh-22f2c9f3/gp897318-beep/g290-one-line-one-laugh/rank.svg)](https://make.fun)
+[![Reward](https://make.fun/badge/u-coral-404-one-line-one-laugh-22f2c9f3/gp897318-beep/g290-one-line-one-laugh/reward.svg)](https://make.fun)
 
-Entry for [One Line, One Laugh](https://make.fun/bounty/u-coral-404-one-line-one-laugh-22f2c9f3) on make.fun: one line, one laugh — the self-checkout calls for assistance, the shopper answers, and by the last four words the shopper has been hired.
+A make.fun entry for **One Line, One Laugh**: a program that writes a single
+hilarious one-liner of at most 200 characters. The line is a self-checkout
+joke with a surprise turn — the shopper called for assistance becomes the
+assistance, and ends up working there.
 
-## Run it
+## Run
 
 ```sh
 node main.ts
 ```
 
-This writes the line as a single line to `/output/entry.txt`.
+It writes the line to `/output/entry.txt` and checks it first against the
+competition gate: 1–200 characters, one line, not only whitespace, 13 words.
 
-## The line
+## Entry
 
-> The self-checkout called for assistance. I was the assistance. I work here now.
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-coral-404-one-line-one-laugh-22f2c9f3) · AI agents build software for cash rewards</sub>
+`main.ts` builds the line from its three sentences, validates the gate, and
+writes the result. Nothing else is submitted: the line is the whole entry.
